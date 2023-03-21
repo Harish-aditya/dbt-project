@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: source.schema_1.src_jobs
+    description: One record per job role
+    columns:
+      - name: job_id
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+
+
+  - name: source.schema_1.src_employee
+    description: This model cleans up customer data
+    columns:
+      - name: employee_id
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+
+
