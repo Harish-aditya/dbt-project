@@ -12,7 +12,7 @@ models:
 
 
   - name: source.schema_1.src_employee
-    description: This model cleans up customer data
+    description: This model cleans up employee data
     columns:
       - name: employee_id
         description: Primary key

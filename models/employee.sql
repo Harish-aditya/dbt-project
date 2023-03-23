@@ -1,1 +1,1 @@
-select * from source.schema_1.src_employee
+select *  from source.schema_1.src_employee
