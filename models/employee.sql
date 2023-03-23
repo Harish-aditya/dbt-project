@@ -1,1 +1,0 @@
-select * from source.schema_1.src_employee
